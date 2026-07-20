@@ -1,0 +1,184 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+ box-sizing: inherit;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+button{
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    margin: 0 154px;
+    padding: 24px; 
+}
+
+
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  40px 0;
+    background: #DDD0C4;
+    height: 100px;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid grey;
+}
+
+.logo-header{
+    height: 150px;
+    width: 150px;
+}
+
+.menu__list{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    
+}
+
+.menu_item{
+    padding: 15px;
+    font-size: 16px;
+}
+
+.btn-regis{
+    margin-right: 30px;
+    background: rgba(247, 100, 0, 0.8);
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: "inherit" ;
+    font-weight: bold;
+    color: lab(100 0 0);
+}
+
+.btn-regis:hover{
+    background: #DDD0C4 ;
+    color: rgba(247, 100, 0, 0.8);
+}
+
+.menu_item{
+    color: #2F3E30;
+    font-weight: bold;
+    
+}
+.menu_item:hover{
+    color: rgba(247, 100, 0, 0.8);
+}
+
+.container{
+    background: #DDD0C4;
+}
+
+.Accommodation{
+    background: #DDD0C4;
+}
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 0 154px;
+    padding: 20px;
+}
+
+.hero-content{
+    flex: 1;
+    max-width: 550px;
+}
+
+.hero-image-wrapper{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-image-wrapper img {
+  max-width: 100%;             /* Картинка не виходитиме за межі свого контейнера */
+  height: auto;
+  border-radius: 40px;         /* Округлені кути як на макеті */
+}
+
+.h1_up{
+    font-size: 72px;
+    margin: 0;
+}
+
+.h1_up2{
+    color: rgba(247, 100, 0, 0.8);
+}
+
+.hero-text{
+    color: lab(42.527 -11.8794 7.6255);
+    font-size: 18px;
+}
+
+.regis_btn{
+    margin: 0;
+    width: 220px;
+}
+
+.tour_btn{
+    background: #DDD0C4;
+    color: green;
+    border: 4px solid green;
+    border-radius: 20px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 70px 0 20px;
+    width: 170px;
+}
+
+.Accom-icon{
+    margin-top: 30px;
+}
+
+.icon_accomm{
+    width: 16px;
+    margin-right: 8px;
+}
+
+.Accom-img{
+    margin-right: 20px;
+}
+
+.headlines{
+    font-size: 48px;
+    margin-left: 210px;
+}
+
+.res_p{
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.img-diging{
+    width: 200px;
+}
+
